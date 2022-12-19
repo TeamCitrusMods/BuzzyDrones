@@ -1,12 +1,11 @@
 package net.buzzydrones;
 
-import net.buzzydrones.content.event.RegistryEvents;
-import net.buzzydrones.registry.BuzzyDronesContainers;
+import net.buzzydrones.content.event.ClientRegistryEvents;
 
 public class BuzzyDronesClient {
     public static void init() {
-        BuzzyDronesContainers.registerGuis();
-        RegistryEvents.registerEntityRenders();
-        RegistryEvents.registerEntityLayers();
+        ClientRegistryEvents.registerGuis();
+        ClientRegistryEvents.registerEntityRenders();
+        ClientRegistryEvents.registerEntityLayers();
     }
 }
