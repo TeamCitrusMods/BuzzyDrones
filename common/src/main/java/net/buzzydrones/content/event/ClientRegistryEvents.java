@@ -1,13 +1,13 @@
 package net.buzzydrones.content.event;
 
 import dev.architectury.registry.client.level.entity.EntityModelLayerRegistry;
-import dev.architectury.registry.client.level.entity.EntityRendererRegistry;
 import dev.architectury.registry.menu.MenuRegistry;
 import net.buzzydrones.BuzzyDrones;
 import net.buzzydrones.content.gui.screen.SourceGuiScreen;
 import net.buzzydrones.content.gui.screen.TargetGuiScreen;
 import net.buzzydrones.content.renderer.DroneModel;
 import net.buzzydrones.content.renderer.DroneRenderer;
+import net.buzzydrones.platform.ClientPlatformHelper;
 import net.buzzydrones.registry.BuzzyDronesContainers;
 import net.buzzydrones.registry.BuzzyDronesEntities;
 import net.minecraft.client.model.geom.ModelLayerLocation;
@@ -19,7 +19,7 @@ public class ClientRegistryEvents {
     }
 
     public static void registerEntityRenders() {
-        EntityRendererRegistry.register(BuzzyDronesEntities.DRONE, DroneRenderer::new);
+        ClientPlatformHelper.registerEntityRenderers(BuzzyDronesEntities.DRONE, DroneRenderer::new);
     }
 
     public static void registerGuis() {

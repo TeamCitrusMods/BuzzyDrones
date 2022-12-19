@@ -1,20 +1,18 @@
 {
   "schema_version": 1,
-  "mixin": [
-    "examplemod.mixins.json",
-    "examplemod-common.mixins.json"
-  ],
   "quilt_loader": {
     "group": "${group}",
     "id": "buzzydrones",
     "version": "${version}",
-    "name": "Example Mod",
-    "description": "This is an example description! Tell everyone what your mod is about!",
-    "authors": ["Me!"],
+    "name": "Buzzy Drones",
+    "description": "A Minecraft Mod that adds drones to move items between containers",
+    "authors": ["HexagonNico", "ZestyBlaze"],
     "contact": {
-      "sources": "https://github.com/architectury/architectury-templates"
+      "homepage": "",
+      "sources": "",
+      "issues": ""
     },
-    "license": "Insert License Here",
+    "license": "Attribution-NonCommercial-ShareAlike 4.0 International",
     "icon": "assets/buzzydrones/icon.png",
     "intermediate_mappings": "net.fabricmc:intermediary",
     "environment": "*",

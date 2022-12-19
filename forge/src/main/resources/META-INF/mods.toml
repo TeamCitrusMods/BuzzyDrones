@@ -1,15 +1,15 @@
 modLoader = "javafml"
 loaderVersion = "[43,)"
 #issueTrackerURL = ""
-license = "Insert License Here"
+license = "Attribution-NonCommercial-ShareAlike 4.0 International"
 
 [[mods]]
 modId = "buzzydrones"
 version = "${version}"
-displayName = "Example Mod"
-authors = "Me!"
+displayName = "Buzzy Drones"
+authors = ["HexagonNico", "ZestyBlaze"]
 description = '''
-This is an example description! Tell everyone what your mod is about!
+A Minecraft Mod that adds drones to move items between containers
 '''
 #logoFile = ""
 

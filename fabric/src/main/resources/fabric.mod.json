@@ -3,16 +3,18 @@
   "id": "buzzydrones",
   "version": "${version}",
   "name": "Buzzy Drones",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "A Minecraft Mod that adds drones to move items between containers",
   "authors": [
-    "Me!"
+    "HexagonNico",
+    "ZestyBlaze"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "",
+    "sources": "",
+    "issues": ""
   },
-  "license": "Insert License Here",
-  "icon": "assets/examplemod/icon.png",
+  "license": "Attribution-NonCommercial-ShareAlike 4.0 International",
+  "icon": "assets/buzzydrones/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -22,10 +24,6 @@
       "net.buzzydrones.fabric.BuzzyDronesFabricClient"
     ]
   },
-  "mixins": [
-    "examplemod.mixins.json",
-    "examplemod-common.mixins.json"
-  ],
   "depends": {
     "fabric": "*",
     "minecraft": ">=1.19.2",
