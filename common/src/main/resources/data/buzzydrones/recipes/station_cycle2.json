@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "buzzydrones:station",
+  "ingredients": [
+    {"item": "buzzydrones:target_station"}
+  ],
+  "result": {
+    "item": "buzzydrones:idle_station"
+  }
+}
