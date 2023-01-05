@@ -18,10 +18,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.buzzydrones.fabric.BuzzyDronesFabric"
+      "buzzydrones.fabric.BuzzyDronesFabric"
     ],
     "client": [
-      "net.buzzydrones.fabric.BuzzyDronesFabricClient"
+      "buzzydrones.fabric.BuzzyDronesFabricClient"
     ]
   },
   "depends": {
