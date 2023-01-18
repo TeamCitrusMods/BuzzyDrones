@@ -18,7 +18,7 @@ For a more detailed explanation, read the wiki:
 
 ## Additional information
 
-Author: HexagonNico
+Author: HexagonNico, ZestyBlaze
 
 You may use this mod in any modpack as long as you do not sell it via any means and you give credit to the original author.
 
